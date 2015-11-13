@@ -1,12 +1,8 @@
-== README
-
 ## About
---
 
 Currently the only brigade focused web solution is Laddr. I would like to build an alternative.
 
 ## Local Development
---
 
 * Install Ruby 2.2.0 using either `rbenv` or `rvm`.
 * Install `bundler`
