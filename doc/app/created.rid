@@ -1,0 +1,18 @@
+Fri, 13 Nov 2015 07:10:57 -0800
+README.rdoc	Fri, 13 Nov 2015 01:11:40 -0800
+app/controllers/admin/application_controller.rb	Fri, 13 Nov 2015 01:12:58 -0800
+app/controllers/admin/projects_controller.rb	Fri, 13 Nov 2015 07:09:35 -0800
+app/controllers/admin/users_controller.rb	Fri, 13 Nov 2015 01:26:36 -0800
+app/controllers/application_controller.rb	Fri, 13 Nov 2015 01:11:40 -0800
+app/controllers/projects_controller.rb	Fri, 13 Nov 2015 02:16:01 -0800
+app/controllers/users_controller.rb	Fri, 13 Nov 2015 01:24:35 -0800
+app/controllers/welcome_controller.rb	Fri, 13 Nov 2015 01:51:47 -0800
+app/dashboards/dashboard_manifest.rb	Fri, 13 Nov 2015 07:09:35 -0800
+app/dashboards/project_dashboard.rb	Fri, 13 Nov 2015 07:09:35 -0800
+app/dashboards/user_dashboard.rb	Fri, 13 Nov 2015 07:09:38 -0800
+app/helpers/application_helper.rb	Fri, 13 Nov 2015 01:11:40 -0800
+app/helpers/projects_helper.rb	Fri, 13 Nov 2015 02:16:01 -0800
+app/helpers/users_helper.rb	Fri, 13 Nov 2015 01:24:35 -0800
+app/helpers/welcome_helper.rb	Fri, 13 Nov 2015 01:51:47 -0800
+app/models/project.rb	Fri, 13 Nov 2015 02:39:31 -0800
+app/models/user.rb	Fri, 13 Nov 2015 02:39:18 -0800
