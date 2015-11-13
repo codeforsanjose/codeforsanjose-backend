@@ -1,3 +1,4 @@
+![alt tag](http://imgur.com/AYwkeBB)
 ## About
 
 Currently the only brigade focused web solution is Laddr. I would like to build an alternative.
