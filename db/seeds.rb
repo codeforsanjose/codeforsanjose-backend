@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# MeetupEvent.create(
+#   name: 'Hack night!',
+#   url: 'http://foobar.com',
+#   yes_rsvp_count: 40
+# )
