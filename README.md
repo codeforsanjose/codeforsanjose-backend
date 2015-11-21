@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/codeforsanjose/codeforsanjose.png?label=ready&title=Ready)](http://waffle.io/codeforsanjose/codeforsanjose)
 ![alt tag](http://i.imgur.com/Am5CznU.png)
 ## About
 
