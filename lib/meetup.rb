@@ -23,7 +23,7 @@ class MeetupWrapper
   # @return [Hash]
   #
   # @example List meetups
-  #    Meetup.new(named_params).upcoming_events
+  #    MeetupWrapper.new(named_params).upcoming_events
   def upcoming_events
     events = @meetup.events({
       group_urlname: @meetup_url_name,
