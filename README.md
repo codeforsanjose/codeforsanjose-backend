@@ -27,4 +27,4 @@ The Meetup API key is configured via an environment variable. You can set this i
 
 If you would like to pull down the latest set of events for an initial seeding of the database then there is a rake task to accomplish just that: `rake meetup_poll_job:perform_now`. However, because of uniqueness validation it'll only be useful for that initial seeding.
 
-The polling job will run ever sixy minutes - as configured by the whenever schedule. Job schedule timing is configured in the `config/schedule.rb` file. However, the whenever gem requires writing to the systems crontab. Setting your crontab for local development is not needed but this is to be done if the application is deployed.
+The polling job will run ever sixy minutes. The job schedule timing is configured in the `config/schedule.rb` file. However, the whenever gem requires writing to the systems crontab in order for the schedule to take effect. Setting your crontab for local development is not needed but this needs to be done if the application is deployed.
