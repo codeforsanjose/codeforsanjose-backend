@@ -49,6 +49,8 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'awesome_print'
   gem 'minitest-around'
+  gem 'rubocop'
+  gem 'simplecov', require: false
 end
 
 group :development do
