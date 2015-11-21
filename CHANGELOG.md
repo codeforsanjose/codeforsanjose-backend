@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+- Code coverage via simplecov
+
 ## [v0.2.0] - 2015-11-21
 ### Added
 - Meetup integration
