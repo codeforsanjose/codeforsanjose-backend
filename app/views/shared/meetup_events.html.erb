@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="list-group">
+    <div class="list-group-item active">
+      <h4 class="list-group-item-heading text-primary">
+        Upcoming meetings!
+      </h4>
+    </div>
+    <ul class="list-group">
+      <% @meetup_events.each do |event| %>
+        <li class="list-group-item">
+          <span class="badge"> <%= event.yes_rsvp_count %> </span>
+          <p> <%= event.name %> </p>
+          <a href=<%= event.event_url %>><%= event.event_url %></a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

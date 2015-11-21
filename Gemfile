@@ -27,6 +27,12 @@ gem 'sprockets-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass'
 gem 'bootswatch-rails'
+gem 'meetup_client'
+gem 'config'
+gem 'figaro'
+gem 'sucker_punch'
+gem 'whenever'
+gem 'bower-rails', '~> 0.10.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -40,12 +46,14 @@ gem 'bootswatch-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'database_cleaner'
+  gem 'awesome_print'
+  gem 'minitest-around'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-  gem 'bower-rails', '~> 0.10.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
