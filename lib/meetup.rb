@@ -4,7 +4,7 @@ require 'meetup_client'
 # @class A small wrapper around the meetup_client library
 # @author Tyler Hampton
 # @since 0.1.0
-class Meetup
+class MeetupWrapper
   attr_accessor :meetup_url_name
   attr_writer   :meetup_api_key
 

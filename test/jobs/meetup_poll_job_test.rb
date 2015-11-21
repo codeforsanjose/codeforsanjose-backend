@@ -1,7 +1,9 @@
 require 'test_helper'
 
 class MeetupPollJobTest < ActiveJob::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  def test_job
+    assert_enqueued_jobs 0
+    MeetupPollJob.perform_later
+    assert_enqueued_jobs 1
+  end
 end

@@ -1,11 +1,16 @@
 require 'test_helper'
 require_relative '../../lib/meetup.rb'
 
-describe Meetup do
+# Why am I testing this:
+#
+# I need to know if my custom library works or not in its most basic
+# capacity. All it's doing is perfomaning a simple unit test to guarantee
+# execution.
+describe MeetupWrapper do
   before do
-    @meetup_client = Meetup.new(
+    @meetup_client = MeetupWrapper.new(
       meetup_api_key: Figaro.env.meetup_api_key,
-      meetup_url_name: 'Code-for-San-Jose'
+      meetup_url_name: Settings.meetup_url_name
     )
   end
 

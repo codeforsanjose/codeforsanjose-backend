@@ -11,6 +11,39 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151120003435) do
+ActiveRecord::Schema.define(version: 20151120184830) do
+
+  create_table "meetup_events", force: :cascade do |t|
+    t.string   "name"
+    t.string   "event_url"
+    t.string   "address"
+    t.string   "address_name"
+    t.string   "address_city"
+    t.integer  "time",           limit: 8
+    t.integer  "duration"
+    t.integer  "yes_rsvp_count"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "projects", force: :cascade do |t|
+    t.string   "name"
+    t.string   "homepage"
+    t.string   "url"
+    t.string   "stage"
+    t.string   "technologies"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "username"
+    t.string   "email"
+    t.string   "encrypted_password"
+    t.string   "salt"
+    t.string   "technologies"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

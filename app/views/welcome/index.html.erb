@@ -51,29 +51,7 @@
       </div>
     </div>
     <div class="col-lg-3">
-      <div class="container-fluid">
-        <div class="list-group">
-          <div class="list-group-item active">
-            <h4 class="list-group-item-heading text-primary">
-              Upcoming meetings!
-            </h4>
-          </div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <span class="badge"> 14 </span>
-              <p> <%= @meetup_event %> </p>
-            </li>
-            <li class="list-group-item">
-              <span class="badge"> 14 </span>
-              Sample meetup!
-            </li>
-            <li class="list-group-item">
-              <span class="badge"> 14 </span>
-              Sample meetup!
-            </li
-          </ul>
-        </div>
-      </div>
+      <%= render template: 'shared/meetup_events' %>
     </div>
   </div>
 </div>

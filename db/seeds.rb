@@ -8,6 +8,11 @@
 
 # MeetupEvent.create(
 #   name: 'Hack night!',
-#   url: 'http://foobar.com',
+#   event_url: 'http://foobar.com',
+#   address: 'Park Ave. Entrance by the rolling ball sculpture',
+#   address_name: 'The Tech Museum',
+#   address_city: 'San Jose',
+#   time: 14491962000000,
+#   duration: 9000000,
 #   yes_rsvp_count: 40
 # )
