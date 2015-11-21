@@ -2,7 +2,6 @@ require_relative '../../lib/meetup.rb'
 
 class MeetupPollJob < ActiveJob::Base
   queue_as :low_priority
-  RUN_EVERY = (Settings.meetup_poll_time).freeze
 
   def perform
     meetup_client = MeetupWrapper.new(
@@ -25,7 +24,5 @@ class MeetupPollJob < ActiveJob::Base
         ).save
       end
     end
-
-    self.class.perform_later(wait: RUN_EVERY)
   end
 end
