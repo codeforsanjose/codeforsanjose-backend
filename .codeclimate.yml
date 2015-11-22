@@ -1,0 +1,7 @@
+languages:
+  Ruby: true
+  JavaScript: true
+exclude_paths:
+  - bin/*
+  - vendor/*
+  - db/schema.rb
