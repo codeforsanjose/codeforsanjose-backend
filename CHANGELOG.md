@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [v0.3.0] - 2015-11-21
+### Changed
+- Transition to PostgreSQL
+
 ## [v0.2.4] - 2015-11-21
 ### Changed
 - Another shot at climate analysis
