@@ -11,7 +11,17 @@ The codeforsanjose web application is a prototype to framework for Code for Amer
 
 ## Local Development
 
-* Install Ruby 2.2.0 using either `rbenv` or `rvm`.
+Dependencies:
+* Install PostgreSQL
+
+You can either follow their directions on their website [here](http://www.postgresql.org/download/macosx/) or you can use Homebrew (`brew install postgres`). I highly recommend using Homebrew. The output for the `brew install` command should include `plist` lines for starting postgres every time your Mac starts and for starting the database up initially.
+
+You'll then need to create the test user that Rails will use to run its migrations:
+
+`psql create role codemonkey with createdb login;`
+
+Ruby and Rails:
+* Install Ruby `2.2.3` using either `rbenv` or `rvm`.
 * Install `bundler`
 * Execute `bundle install`
 * Execute `rake assets:precompile`
@@ -22,6 +32,7 @@ The codeforsanjose web application is a prototype to framework for Code for Amer
 
 Bonus round:
 * Run tests via `rake test`
+* Generate code coverage report with `rake rubocop`
 
 ## Meetup Integration
 
