@@ -12,6 +12,11 @@ The `codeforsanjose` web application is a prototype framework for Code for Ameri
 
 ## Local Development
 
+Supported development platforms:
+
+* Mac OS X
+* Linux
+
 Dependencies:
 * Install PostgreSQL
 
@@ -34,6 +39,8 @@ Ruby and Rails:
 Bonus round:
 * Run tests via `rake test`
 * Generate code coverage report with `rake rubocop`
+
+See the contribution guide in the wiki for how to contribute to the repository.
 
 ## Meetup Integration
 
