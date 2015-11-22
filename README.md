@@ -31,11 +31,11 @@ You'll then need to create the test user that Rails will use to run its migratio
 
 Ruby and Rails:
 * Install Ruby `2.2.3` using either `rbenv` or `rvm`.
-* Install `bundler`
+* Install with  `gem install bundler`
 * Execute `bundle install`
-* Execute `rake assets:precompile`
-* Execute `rake db:migrate`
-* Execute `rails s`
+* Execute `bundle exec rake assets:precompile`
+* Execute `bundle exec rake db:migrate`
+* Execute `bundle exec rails s`
 * Access the front page at `127.0.0.1:3000`
 * Access the admin page at `127.0.0.1:3000/admin`
 
