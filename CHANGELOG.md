@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [v0.3.1] - 2015-11-21
+### Changed
+- Rubocop rake tasks were breaking production rake usage
+
 ## [v0.3.0] - 2015-11-21
 ### Changed
 - Transition to PostgreSQL
