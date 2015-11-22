@@ -1,6 +1,7 @@
 [![Code Climate](https://codeclimate.com/github/codeforsanjose/codeforsanjose/badges/gpa.svg)](https://codeclimate.com/github/codeforsanjose/codeforsanjose)
 [![Test Coverage](https://codeclimate.com/github/codeforsanjose/codeforsanjose/badges/coverage.svg)](https://codeclimate.com/github/codeforsanjose/codeforsanjose/coverage)
 [![Build Status](https://travis-ci.org/codeforsanjose/codeforsanjose.svg)](https://travis-ci.org/codeforsanjose/codeforsanjose)
+[![Dependency Status](https://gemnasium.com/codeforsanjose/codeforsanjose.svg)](https://gemnasium.com/codeforsanjose/codeforsanjose)
 [![Stories in Ready](https://badge.waffle.io/codeforsanjose/codeforsanjose.png?label=ready&title=Ready)](http://waffle.io/codeforsanjose/codeforsanjose)
 [![Slack Status](https://slackin-c4sj.herokuapp.com/badge.svg)](https://slackin-c4sj.herokuapp.com/)
 ## About
