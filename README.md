@@ -2,10 +2,12 @@
 [![Test Coverage](https://codeclimate.com/github/codeforsanjose/codeforsanjose/badges/coverage.svg)](https://codeclimate.com/github/codeforsanjose/codeforsanjose/coverage)
 [![Build Status](https://travis-ci.org/codeforsanjose/codeforsanjose.svg)](https://travis-ci.org/codeforsanjose/codeforsanjose)
 [![Stories in Ready](https://badge.waffle.io/codeforsanjose/codeforsanjose.png?label=ready&title=Ready)](http://waffle.io/codeforsanjose/codeforsanjose)
-![alt tag](http://i.imgur.com/Am5CznU.png)
 ## About
 
-Currently the only brigade focused web solution is Laddr. I would like to build an alternative.
+The codeforsanjose web application is a prototype to framework for Code for America brigades to use to manage their brigades. It's currently in alpha state.
+
+## Demo
+[Here is the demo site](https://codeforsanjose.herokuapp.com/)
 
 ## Local Development
 
