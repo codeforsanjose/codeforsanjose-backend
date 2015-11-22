@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
-- Transitioned to PostgreSQL
+- Rubocop rake task breaks rake in production
 
 ## [v0.2.4] - 2015-11-21
 ### Changed
