@@ -12,3 +12,4 @@ addons:
 
 before_script:
   - psql -c 'create database codeforsanjose_test;' -U postgres
+  - psql -c 'create role codemonkey login createdb;' -U postgres
