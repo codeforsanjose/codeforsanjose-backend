@@ -1,7 +1,28 @@
-languages:
-  Ruby: true
-  JavaScript: true
+---
+engines:
+  bundler-audit:
+    enabled: true
+  csslint:
+    enabled: true
+  coffeelint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.css"
+  - "**.coffee"
+  - "**.js"
+  - "**.jsx"
+  - "**.rb"
 exclude_paths:
-  - bin/*
-  - vendor/*
-  - db/schema.rb
+- bin/*
+- vendor/*
+- public/assets/*
+- doc/app/js/jquery.js
+- db/schema.rb

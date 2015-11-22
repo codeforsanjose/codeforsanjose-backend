@@ -51,6 +51,7 @@ group :development, :test do
   gem 'minitest-around'
   gem 'rubocop'
   gem 'simplecov', require: false
+  gem "codeclimate-test-reporter", require: false
 end
 
 group :development do
