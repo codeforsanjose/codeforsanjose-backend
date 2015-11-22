@@ -10,6 +10,8 @@ The `codeforsanjose` web application is a prototype framework for Code for Ameri
 ## Demo
 [Here is the demo site](https://codeforsanjose.herokuapp.com/)
 
+Demo notes: It may be a bit sluggish due to running off of a free Heroku dyno and running on top of WEBrick. There is an [issue](https://github.com/codeforsanjose/codeforsanjose/issues/47) for changing web servers to something a bit more speedy.
+
 ## Local Development
 
 Supported development platforms:
