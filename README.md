@@ -2,7 +2,7 @@
 [![Test Coverage](https://codeclimate.com/github/codeforsanjose/codeforsanjose/badges/coverage.svg)](https://codeclimate.com/github/codeforsanjose/codeforsanjose/coverage)
 [![Build Status](https://travis-ci.org/codeforsanjose/codeforsanjose.svg)](https://travis-ci.org/codeforsanjose/codeforsanjose)
 [![Stories in Ready](https://badge.waffle.io/codeforsanjose/codeforsanjose.png?label=ready&title=Ready)](http://waffle.io/codeforsanjose/codeforsanjose)
-[![Slack Status](https://slackin-c4sj.herokuapp.com/)](https://slackin-c4sj.herokuapp.com/)
+[![Slack Status](https://slackin-c4sj.herokuapp.com/badge.svg)](https://slackin-c4sj.herokuapp.com/)
 ## About
 
 The `codeforsanjose` web application is a prototype framework for Code for America brigades to use to manage their brigades. It's currently in alpha stage. See the wiki for more information on its design, configuration, and usage.
