@@ -4,6 +4,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [v0.2.3] - 2015-11-21
+### Changed
+- Fixed code climate analysis
+
 ## [v0.2.2] - 2015-11-21
 ### Added
 - Ruby style guide was added and configured
