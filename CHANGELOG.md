@@ -3,7 +3,18 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
-- Code climate fix
+
+## [v0.2.3] - 2015-11-21
+### Changed
+- Fixed code climate analysis
+
+## [v0.2.2] - 2015-11-21
+### Added
+- Ruby style guide was added and configured
+
+## [v0.2.1] - 2015-11-21
+### Added
+- Code climate coverage configuration was added
 
 ## [v0.2.0] - 2015-11-21
 ### Added
