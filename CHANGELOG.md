@@ -3,7 +3,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
-- Transitioned to PostgreSQL
+
+## [v0.3.0] - 2015-11-21
+### Changed
+- Transition to PostgreSQL
 
 ## [v0.2.4] - 2015-11-21
 ### Changed
