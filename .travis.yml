@@ -9,3 +9,7 @@ rvm:
 addons:
   code_climate:
     repo_token: d248f64021aeac89204c31d6cb7729605a1db949f2e1571ffabcde5956000d13
+
+before_script:
+  - psql -c 'create database codeforsanjose_test;' -U postgres
+  - psql -c 'create role codemonkey login createdb;' -U postgres
