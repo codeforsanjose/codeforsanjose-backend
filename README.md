@@ -4,7 +4,7 @@
 [![Stories in Ready](https://badge.waffle.io/codeforsanjose/codeforsanjose.png?label=ready&title=Ready)](http://waffle.io/codeforsanjose/codeforsanjose)
 ## About
 
-The codeforsanjose web application is a prototype to framework for Code for America brigades to use to manage their brigades. It's currently in alpha state.
+The `codeforsanjose` web application is a prototype framework for Code for America brigades to use to manage their brigades. It's currently in alpha stage. See the wiki for more information on its design, configuration, and usage.
 
 ## Demo
 [Here is the demo site](https://codeforsanjose.herokuapp.com/)
@@ -14,7 +14,7 @@ The codeforsanjose web application is a prototype to framework for Code for Amer
 Dependencies:
 * Install PostgreSQL
 
-You can either follow their directions on their website [here](http://www.postgresql.org/download/macosx/) or you can use Homebrew (`brew install postgres`). I highly recommend using Homebrew. The output for the `brew install` command should include `plist` lines for starting postgres every time your Mac starts and for starting the database up initially.
+You can either follow their directions on their website [here](http://www.postgresql.org/download/macosx/) or you can use Homebrew (`brew install postgres`). I highly recommend using Homebrew as an OS X package manager. If you choose to go the Homebrew route, the output for the `brew install` command should include `plist` lines for starting postgres every time your Mac starts and for starting the database up initially. If you do not go with Homebrew, then you'll need to Google around for the right default path that postgres installs to and use that for the right `plist` invocation.
 
 You'll then need to create the test user that Rails will use to run its migrations:
 
