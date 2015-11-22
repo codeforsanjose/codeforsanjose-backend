@@ -38,7 +38,7 @@ Bonus round:
 
 A background job runs every hour that collects upcoming Meetup events for a Meetup group specified by its Meetup URL name in `config/settings.yml`.
 
-Those events are stored in SQLite and are accessed from the `welcome_controller` and then rendered in the `app/views/shared/meetup_events` partial.
+Those events are stored in postgres and are accessed from the `welcome_controller` and then rendered in the `app/views/shared/meetup_events` partial.
 
 The Meetup API key is configured via an environment variable. You can set this in a POSIX compliant shell by running `export MEETUP_API_KEY=<your_key_here>` for local development or `rake figaro heroku:set -e production` if you're deploying to Heroku.
 
