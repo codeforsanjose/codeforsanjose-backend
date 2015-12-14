@@ -4,6 +4,10 @@
 [![Dependency Status](https://gemnasium.com/codeforsanjose/codeforsanjose.svg)](https://gemnasium.com/codeforsanjose/codeforsanjose)
 [![Stories in Ready](https://badge.waffle.io/codeforsanjose/codeforsanjose.png?label=ready&title=Ready)](http://waffle.io/codeforsanjose/codeforsanjose)
 [![Slack Status](https://slackin-c4sj.herokuapp.com/badge.svg)](https://slackin-c4sj.herokuapp.com/)
+
+### Backend to the Code for San Jose Website
+The front end, written in AngularJS, can be found on GitHub under the [Code for San Jose Frontend repository](https://github.com/codeforsanjose/codeforsanjose-frontend)
+
 ## About
 
 The `codeforsanjose` web application is a prototype framework for Code for America brigades to use to manage their brigades. It's currently in alpha stage. See the wiki for more information on its design, configuration, and usage.
