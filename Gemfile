@@ -1,11 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '2.2.4'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-# Use sqlite3 as the database for Active Record
 gem 'pg'
-# Use SCSS for stylesheets
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -33,24 +31,24 @@ gem 'figaro'
 gem 'sucker_punch'
 gem 'whenever'
 gem 'bower-rails', '~> 0.10.0'
-
 gem 'puma'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  # Call 'byebug' anywhere in the code to stop execution/get a debugger console
   gem 'byebug'
   gem 'database_cleaner'
   gem 'awesome_print'
   gem 'minitest-around'
   gem 'rubocop'
   gem 'simplecov', require: false
-  gem "codeclimate-test-reporter", require: false
+  gem 'codeclimate-test-reporter', require: false
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  # Spring speeds up development by keeping your application running in the
+  #   background. Read more: https://github.com/rails/spring
   gem 'spring'
 end

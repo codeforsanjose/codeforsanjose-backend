@@ -6,7 +6,7 @@ require 'meetup_client'
 # @since 0.1.0
 class MeetupWrapper
   attr_accessor :meetup_url_name
-  attr_writer   :meetup_api_key
+  attr_writer :meetup_api_key
 
   def initialize(params)
     @meetup_url_name = params[:meetup_url_name]
@@ -25,10 +25,10 @@ class MeetupWrapper
   # @example List meetups
   #    MeetupWrapper.new(named_params).upcoming_events
   def upcoming_events
-    events = @meetup.events({
+    events = @meetup.events(
       group_urlname: @meetup_url_name,
       status: 'upcoming'
-    })['results']
+    )['results']
 
     events.inject({}) do |accum, results|
       accum[results['name']] = {
