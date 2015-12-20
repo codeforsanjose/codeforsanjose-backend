@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -42,6 +43,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'awesome_print'
   gem 'minitest-around'
+  gem 'parser', '2.3.0.pre.6'
   gem 'rubocop'
   gem 'simplecov', require: false
   gem "codeclimate-test-reporter", require: false
