@@ -1,6 +1,6 @@
 language: ruby
 rvm:
- - "2.2.2"
+ - "2.2.4"
 
 # http://docs.codeclimate.com/article/276-should-i-keep-my-test-coverage-token-secret
 #
