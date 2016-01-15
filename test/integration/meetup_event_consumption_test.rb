@@ -10,7 +10,7 @@ require_relative '../../lib/meetup.rb'
 # tests for the model.
 describe MeetupEvent do
   before do
-    DatabaseCleaner.strategy = :truncation, {only: %w( meetup_events )}
+    DatabaseCleaner.strategy = :truncation, { only: %w( meetup_events ) }
 
     meetup_client = MeetupWrapper.new(
       meetup_api_key: Figaro.env.meetup_api_key,
@@ -38,7 +38,7 @@ describe MeetupEvent do
           yes_rsvp_count: event_attributes['yes_rsvp_count']
         )
 
-        event.event_url.must_match ('http')
+        event.event_url.must_match('http')
       end
     end
   end

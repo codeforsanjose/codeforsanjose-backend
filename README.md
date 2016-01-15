@@ -15,7 +15,7 @@ The `codeforsanjose` web application is a prototype framework for Code for Ameri
 ## Demo
 [Here is the demo site](https://codeforsanjose.herokuapp.com/)
 
-Demo notes: It may be a bit sluggish due to running off of a free Heroku dyno and running on top of WEBrick. There is an [issue](https://github.com/codeforsanjose/codeforsanjose/issues/47) for changing web servers to something a bit more speedy.
+Demo notes: It may be a bit sluggish due to running off of a free Heroku dyno.
 
 ## Local Development
 
@@ -29,21 +29,20 @@ Dependencies:
 
 You can either follow their directions on their website [here](http://www.postgresql.org/download/macosx/) or you can use Homebrew (`brew install postgres`). I highly recommend using Homebrew as an OS X package manager. If you choose to go the Homebrew route, the output for the `brew install` command should include `plist` lines for starting postgres every time your Mac starts and for starting the database up initially. If you do not go with Homebrew, then you'll need to Google around for the right default path that postgres installs to and use that for the right `plist` invocation.
 
-You'll then need to create the test user that Rails will use to run its migrations:
-
-`psql create role codemonkey with createdb login;`
+Copy `config/database.example.yml` to `config/database.yml` and add a user and password if desired (typically unnecessary for development/test).
 
 Ruby and Rails:
-* Install Ruby `2.2.3` using either `rbenv` or `rvm`.
+
+* Install Ruby `2.2.4` using either [`rbenv`](https://github.com/rbenv/rbenv) or [`rvm`](https://rvm.io/).
 * Install with  `gem install bundler`
 * Execute `bundle install`
-* Execute `bundle exec rake assets:precompile`
 * Execute `bundle exec rake db:migrate`
 * Execute `bundle exec rails s`
 * Access the front page at `127.0.0.1:3000`
 * Access the admin page at `127.0.0.1:3000/admin`
 
 Bonus round:
+
 * Run tests via `rake test`
 * Generate code coverage report with `rake rubocop`
 
