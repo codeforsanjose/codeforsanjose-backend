@@ -32,6 +32,7 @@ gem 'sucker_punch'
 gem 'whenever'
 gem 'bower-rails', '~> 0.10.0'
 gem 'puma'
+gem 'devise', '4.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution/get a debugger console

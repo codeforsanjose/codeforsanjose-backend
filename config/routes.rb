@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   namespace :admin do
     DashboardManifest::DASHBOARDS.each do |dashboard_resource|
       resources dashboard_resource
@@ -6,6 +7,8 @@ Rails.application.routes.draw do
 
     root controller: DashboardManifest::ROOT_DASHBOARD, action: :index
   end
+
+  # resources :users
 
   root 'welcome#index'
 
