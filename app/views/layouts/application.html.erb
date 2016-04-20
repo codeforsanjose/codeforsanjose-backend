@@ -9,15 +9,18 @@
 </head>
 <body>
 
-<div class="container">
-  <% flash.each do |key, value| %>
-    <div class="alert alert-<%= key %>">
-      <%= value %>
-    </div>
-  <% end %>
-</div>
 
   <%= render template: 'shared/navbar' %>
+
+  <% if flash[:notice] %>
+  <div class="container">
+    <% flash.each do |key, value| %>
+      <div class="alert alert-success">
+        <%= value %>
+      </div>
+    <% end %>
+  </div>
+  <% end %>
 
   <%= yield :top_content %>
 
