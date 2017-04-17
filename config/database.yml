@@ -33,5 +33,5 @@ test:
 production:
   <<: *default
   database: codeforsanjose_production
-  username: <%= Figaro.env.postgres_username %>
-  password: <%= Figaro.env.postgres_password %>
+  username: <%= ENV['postgres_username'] %>
+  password: <%= ENV['postgres_password'] %>
